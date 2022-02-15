@@ -8,7 +8,7 @@ The appraoch I follwed for this part of the project has been an ELT pipeline. I 
 
 In order to solve this issue I decided to create a Postgresql database cluster node on DigitalOcean at the cost of 5$/month.
 
-With the database available, and after having explored and understood the data received, I have created [an SQL file](https://github.com/dolphinxyz/TR_challenge/blob/main/init.sql) to instanciate the tables necessary for the challenge.
+With the database available, and after having explored and understood the data received, I have created [an SQL file](https://github.com/dolphinxyz/TR_Challenge/blob/main/init.sql) to instanciate the tables necessary for the challenge.
 
 Finally after having defined the environmental variables on my machine, I worked on a Golang script to run the SQL file above created, as well as pushing the data from the CSV files into the proper table.
 
@@ -20,7 +20,7 @@ I have decided to use Golang because of different reasons:
 - Structs are a great way to abstract data
 - It is easy to read because automatically formatted, the code looks always the same
 
-[Here](https://github.com/dolphinxyz/TR_challenge/blob/main/load.go) the golang script.
+[Here](https://github.com/dolphinxyz/TR_Challenge/blob/main/load/load.go) the golang script.
 First of all, I define all the data structures I need. Then within the main function I instanciate a database connection, I run the initial SQL script, and then finally I push the data from the three tables received.
 
 During the last part of the job I noticed some inconciestences in the *trades.csv* file. For the purpose of this challenge I have decided to remove those problems manually:
@@ -48,9 +48,9 @@ You can log in [here](https://metabase-kicdm.ondigitalocean.app/), credentials h
 
 One thing I notice about the data is that it does not only contains 6 "accounts", but many more.
 
-[Here](https://github.com/dolphinxyz/TR_challenge/blob/main/questions.sql) the query I wrote, and below a snapshot of the solution:
+[Here](https://github.com/dolphinxyz/TR_Challenge/blob/main/questions.sql) the query I wrote, and below a snapshot of the solution:
 
-![snapshot](https://github.com/dolphinxyz/TR_challenge/blob/958a1d4e716cfac766f3bc2fd5b11a038a988325/questions.png)
+![snapshot](https://github.com/dolphinxyz/TR_Challenge/blob/e2cd0fd6f56d685f59f8b0d6d1555b0e0fc1d2f7/questions.png)
 
 It would be great if we could discuss the answers of your questions during our conversation.
 
@@ -125,8 +125,8 @@ CREATE TABLE prefixes (
 
 Now, using Golang I have been able to fetch the API endpoint with the currency rates of each date, filling up the database's table.
 
-You can find the Golang script here.
+You can find the Golang script [here](https://github.com/dolphinxyz/TR_Challenge/blob/main/api/api.go).
 
-Now finally, using SQL, I can expland the query created for the previous step, showing the value of each account's portfolio in the requested currency.
+Now finally, using SQL, I can expand the query created for the previous step, showing the value of each account's portfolio in the requested currency.
 
-The query is available here and also on this link on metabase.
+The query is available [here](https://github.com/dolphinxyz/TR_Challenge/blob/main/api.sql) and also on [this link](https://metabase-kicdm.ondigitalocean.app/question/3-api-challenge) on metabase.
