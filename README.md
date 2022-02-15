@@ -143,3 +143,5 @@ Now finally, using SQL, I can expand the query created for the previous step, sh
 The query is available [here](https://github.com/dolphinxyz/TR_Challenge/blob/main/api.sql) and also on [this link](https://metabase-kicdm.ondigitalocean.app/question/3-api-challenge) on metabase.
 
 Here a snapshot of the result, the last three columns are the relevant ones for this specific analysis:
+
+![api](https://github.com/dolphinxyz/TR_Challenge/blob/a907de98b9a1641e7d8c05f17107a3e391318bc1/api.png)
