@@ -1,5 +1,16 @@
 # TR Data challenge
 
+- [TR Data challenge](#tr-data-challenge)
+  * [Data modelling and ETL](#data-modelling-and-etl)
+    + [Setup](#setup)
+    + [Answering questions](#answering-questions)
+    + [Technical follow-up](#technical-follow-up)
+      - [Improving performance - loading](#improving-performance---loading)
+      - [Improving performance - transforming](#improving-performance---transforming)
+      - [Improving performance - Query](#improving-performance---query)
+      - [Testing correctness](#testing-correctness)
+  * [Add Data API](#add-data-api)
+
 ## Data modelling and ETL
 
 ### Setup
