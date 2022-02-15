@@ -141,3 +141,5 @@ You can find the Golang script [here](https://github.com/dolphinxyz/TR_Challenge
 Now finally, using SQL, I can expand the query created for the previous step, showing the value of each account's portfolio in the requested currency.
 
 The query is available [here](https://github.com/dolphinxyz/TR_Challenge/blob/main/api.sql) and also on [this link](https://metabase-kicdm.ondigitalocean.app/question/3-api-challenge) on metabase.
+
+Here a snapshot of the result, the last three columns are the relevant ones for this specific analysis:
