@@ -10,6 +10,7 @@
       - [Improving performance - Query](#improving-performance---query)
       - [Testing correctness](#testing-correctness)
   * [Add Data API](#add-data-api)
+  * [Dashboard](#dashboard)
 
 ## Data modelling and ETL
 
@@ -145,3 +146,18 @@ The query is available [here](https://github.com/dolphinxyz/TR_Challenge/blob/ma
 Here a snapshot of the result, the last three columns are the relevant ones for this specific analysis:
 
 ![api](https://github.com/dolphinxyz/TR_Challenge/blob/a907de98b9a1641e7d8c05f17107a3e391318bc1/api.png)
+
+## Dashboard
+
+In order to have a clear overview of the data available, a dashboard has been created on Metabase, available a [this](https://metabase-kicdm.ondigitalocean.app/dashboard/1-tr-dashboard) link.
+
+The possibilities offered by the data are almost endless. The dashboard simply scrapes the surface of the insights available.
+
+Advanced filters could be applied, as well as more sophisticated users segmentations.
+
+Please apologies if the dashboard is slow, but I am relying of a cheap DigitalOcean server and the queries have not been optimized.
+
+Below a snapshot of the dashboard.
+
+
+
