@@ -159,5 +159,7 @@ Please apologies if the dashboard is slow, but I am relying of a cheap DigitalOc
 
 Below a snapshot of the dashboard.
 
+![dashboard](https://github.com/dolphinxyz/TR_Challenge/blob/5c5eb63177b2ad8aa4889b82e50e773cc209bb63/snapshot_dashboard.png)
+
 
 
