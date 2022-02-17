@@ -159,4 +159,4 @@ Advanced filters could be applied, as well as more sophisticated users segmentat
 
 Below a snapshot of the dashboard.
 
-![dashboard](https://github.com/dolphinxyz/TR_Challenge/blob/5c5eb63177b2ad8aa4889b82e50e773cc209bb63/snapshot_dashboard.png)
+![dashboard](https://github.com/dolphinxyz/TR_Challenge/blob/7ff9787e793a4cb95b37174973f979e8a17db9bc/img/snapshot_dashboard.png)
